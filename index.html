@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/images/8-bit-fire.gif">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>standards</title>
+</head>
+<body>
+  <div class="header">Password Generater</div>
+  <div class="container">
+
+    <div class="serial" >your cod will be generated here</div>
+    <span class="generate">Generate</span>
+    <!--password value  -->
+    <div class="contcheck">
+      <label for="passlen">passwrod length</label>
+      <input id="passlen"type="number" name="pl" value="8" max="100">
+    
+      <hr>
+    
+      <input id="uppercase" type="checkbox" name="uc" value="" checked>
+      <label for="uppercase">Uppercase</label>
+    
+      <input id="lowercase" type="checkbox" name="lc" value="" checked>
+      <label for="lowercase">Lowercase</label>
+
+      <input id="numbers" type="checkbox" name="nb" value="" checked>
+      <label for="lowercase">numbers</label>
+      
+      <input id="speacial-characters" type="checkbox" name="uc" value="" checked>
+      <label for="speacial-characters">Speacial-characters</label>
+      
+    </div>
+  </div>
+  
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
